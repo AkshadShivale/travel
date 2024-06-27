@@ -1,0 +1,544 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 2px solid black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    position: sticky;
+    background-color: azure;
+    box-shadow: 2px 2px black;
+}
+span{
+    border: 0px solid black;
+    height: 50px;
+    width: 660px;
+    position: relative;
+    top: 15px;
+    left: 490px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration-line: none ;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+nav>div{
+    height: 20px;
+    width: 350px;
+    position: relative;
+    left: -590px;
+    top: 30px;
+}
+input{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 20px;
+}
+
+#empty{
+    border: 0px solid black;
+    width: 100%;
+    height: 500px;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide {
+    0%{background-image: url(../rep/TREKKING_.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    25%{background-image: url(../rep/fall-camping-tent-1200x628px.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    50%{background-image: url(../rep/winding-road.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    75%{background-image: url(../rep/jungle-safari.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+    100%{background-image: url(../rep/desert.png);
+        background-repeat: no-repeat;
+        background-size: cover;}
+}
+
+
+#text{
+    border: 0px solid black;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+#text>h1{
+    font-size: 40px;
+    text-shadow: 1px 1px brown;
+}
+#text>p{
+    font-family: 'Bitter', serif;
+font-family: 'Chivo', sans-serif;
+    text-align: justify;
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    
+}
+
+#tran{
+    border: 0px solid black;
+    width: 100%;
+    height: 625px;
+    background-image: url(../rep/winding-road.jpg);
+    background-size: cover;
+}
+#tran1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tran1>#one{
+    border: 1px solid black;
+    width: 33%;
+    height: 300px;
+    transition: width 2s,height 2s;
+    transition-duration: 1s;
+    background-image: url(../rep/leh\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+color:black;
+text-shadow: 6px 6px 3px cornsilk;
+border-radius: 100%;
+}
+
+
+#tran1>#one:hover{
+    width: 430px;
+    height: 310px;
+}
+
+#tran1>#two{
+    border: 1px solid black;
+    width: 33%;
+    height: 300px;
+    transition: width 2s,height 2s;
+    transition-duration: 1s;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+color:cornsilk;
+text-shadow: 6px 6px 3px black;
+background-image: url(../rep/aadrai\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+
+}
+#tran1>#two:hover{
+    width: 430px;
+    height: 310px;
+}
+#tran1>#three{
+    border: 1px solid black;
+    width: 33%;
+    height: 300px;
+    transition: width 2s,height 2s;
+    transition-duration: 1s;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+color:black;
+text-shadow: 6px 6px 8px cornsilk;
+background-image: url(../rep/kedarnath\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+#tran1>#three:hover{
+    width: 430px;
+    height: 310px;
+}
+
+#tran2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tran2>#four{
+    border: 1px solid black;
+    width: 33%;
+    height: 300px;
+    transition: width 2s,height 2s;
+    transition-duration: 1s;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+color:cornsilk;
+text-shadow: 6px 6px 3px black;
+background-image: url(../rep/devkund\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+#tran2>#four:hover{
+    width: 430px;
+    height: 310px;
+}
+#tran2>#five{
+    border: 1px solid black;
+    width: 33%;
+    height: 300px;
+    transition: width 2s,height 2s;
+    transition-duration: 1s;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+color:black;
+text-shadow: 6px 6px 8px cornsilk;
+background-image: url(../rep/bhairav\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#tran2>#five:hover{
+    width: 430px;
+    height: 310px;
+}
+#tran2>#six{
+    border: 1px solid black;
+    width: 33%;
+    height: 300px;
+    transition: width 2s,height 2s;
+    transition-duration: 1s;
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-size: 40px;
+color:cornsilk;
+text-shadow: 6px 6px 3px black;
+background-image: url(../rep/gorakhgad\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+#tran2>#six:hover{
+    width: 430px;
+    height: 310px;
+}
+
+#tip{
+    border: 0px solid black;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#tip>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 3px 3px 3px orange;
+}
+#tip>p{
+    font-family: 'Bitter', serif;
+font-family: 'Chivo', sans-serif;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    word-spacing: 2px;
+    font-weight: 550;
+
+}
+
+#an{
+    border: 0px solid black;
+    width: 100%;
+    height: 605px;
+    background-color: azure;
+    
+}
+
+#an1{
+    border: 0px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ani1:hover{
+    animation-name: rotate1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes rotate1 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#ani2:hover{
+    animation-name: rotate2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes rotate2 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+#an1>div{
+    border: 2px solid black;
+    width: 600px;
+    height: 250px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+    font-size: 35px;
+    background-image: url(../rep/building.png);
+    background-size: cover;
+    color: white;
+    text-shadow: 5px 5px black;
+} 
+
+#an2{
+    border: 0px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#ani3:hover{
+    animation-name: rotate3;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes rotate3 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+#ani4:hover{
+    animation-name: rotate4;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+@keyframes rotate4 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#an2>div{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+    font-size: 35px;
+    background-image: url(../rep/building.png);
+    background-size: cover;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+
+#footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 605px;
+    display: flex;
+    background-color: black;
+}
+
+#footer>div{
+    border: 1px solid black;
+    width: 25%;
+    height:600px;
+}
+
+#foot1{
+    text-align:left;
+    font-size: 25px;
+    word-spacing: 2px;
+    padding-top: 100px;
+    padding-left: 5px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+color: whitesmoke;
+text-shadow: 1px 1px orangered;
+}
+
+#adlogo{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-image: url(../rep/adventure\ logo\ 150px.png);
+background-repeat: no-repeat;
+position: relative;
+top: -40px;
+left: 50px;
+
+
+}
+
+#foot2>span{
+    border: 1px solid black;
+    width: 200px;
+    font-family: 'Barriecito', cursive;
+color: whitesmoke;
+position: relative;
+top: 50px;
+left: 60px;
+font-size: 40px;
+text-shadow: 2px 2px yellow;
+text-decoration-line: underline;
+text-decoration-color: lightcoral;
+}
+
+#foot2>ul{
+    font-size: 25px;
+    position: relative;
+    top: 100px;
+    left: 0px;
+    text-align: center;
+    
+}
+#foot2>ul::marker{
+
+    color: orangered;
+
+}
+#foot2>ul>li>a{
+    font-family: 'Anton', sans-serif;
+font-family: 'Barriecito', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lobster', cursive;
+font-weight: 200;
+text-shadow: 1px 1px orangered;
+color: whitesmoke;
+
+}
+
+#foot3>span{
+    border: 1px solid black;
+    width: 250px;
+    font-family: 'Barriecito', cursive;
+color: whitesmoke;
+position: relative;
+top: 50px;
+left: 50px;
+font-size: 40px;
+text-shadow: 2px 2px yellow;
+text-decoration-line: underline;
+text-decoration-color: lightcoral;
+}
+#foot3>#social{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+
+#foot4>span{
+    border: 1px solid black;
+    width: 250px;
+    font-family: 'Barriecito', cursive;
+color: whitesmoke;
+position: relative;
+top: 50px;
+left: 50px;
+font-size: 40px;
+text-shadow: 2px 2px yellow;
+text-decoration-line: underline;
+text-decoration-color: lightcoral;
+}
+
+#foot4>p{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+    font-size: x-large;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: whitesmoke;
+    text-shadow: 1px 1px orangered;
+}
+
